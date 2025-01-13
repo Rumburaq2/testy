@@ -8,7 +8,7 @@ class KalkulackaTest {
     void soucet() {
         Kalkulacka k = new Kalkulacka(1, 2);
         int soucet = k.soucet();
-        assertTrue(soucet == (1 + 2));
+        assertTrue(soucet == (1 + 3));
         System.out.println(soucet);
     }
 
