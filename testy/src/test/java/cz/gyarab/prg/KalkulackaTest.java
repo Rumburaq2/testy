@@ -9,6 +9,7 @@ class KalkulackaTest {
         Kalkulacka k = new Kalkulacka(1, 2);
         int soucet = k.soucet();
         assertTrue(soucet == (1 + 2));
+        System.out.println(soucet);
     }
 
     @org.junit.jupiter.api.Test
